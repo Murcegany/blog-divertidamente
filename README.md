@@ -1,14 +1,37 @@
 # Site Divertidamente
 
-Para instalação:
+Este é um projeto Angular para criar um blog estático chamado "Divertidamente".
 
-Instalar Angular CLI: Se ainda não tiver o Angular CLI instalado, você pode instalá-lo com o seguinte comando:
+## Pré-requisitos
+
+- Node.js
+- Angular CLI
+
+## Instalação
+
+### Instalar Angular CLI
+
+Se ainda não tiver o Angular CLI instalado, você pode instalá-lo com o seguinte comando:
+
+```bash
 npm install -g @angular/cli
+```
 
-Criar o Projeto Angular:
+Para criar projeto:
+
+```bash
 ng new divertidamente-blog
 cd divertidamente-blog
+```
 
 Criar Componentes:
+
+```bash
 ng generate component home
 ng generate component character
+```
+
+Executar o Projeto:
+```bash
+ng serve
+```
